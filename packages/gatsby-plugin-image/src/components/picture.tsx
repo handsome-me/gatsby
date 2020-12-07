@@ -49,6 +49,7 @@ const Image: FunctionComponent<ImageProps> = function Image({
   innerRef,
   ...props
 }) {
+  console.log(`img`, { props })
   return (
     <img
       {...props}
